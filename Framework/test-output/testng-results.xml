@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[setting up reports and test is getting ready]]>
+    </line>
+    <line>
+      <![CDATA[settings done - test can be started]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start browser and application is getting ready]]>
+    </line>
+    <line>
+      <![CDATA[Application Launched]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to End]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed Reports generated]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to End]]>
+    </line>
+    <line>
+      <![CDATA[Test Completed Reports generated]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15674" started-at="2022-06-15T06:36:58Z" finished-at="2022-06-15T06:37:14Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15674" started-at="2022-06-15T06:36:58Z" finished-at="2022-06-15T06:37:14Z">
+      <class name="com.perficient.testcases.LoginTestCRM">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.perficient.testcases.LoginTestCRM@5762806e]" name="beforeSuite" is-config="true" duration-ms="610" started-at="2022-06-15T06:36:57Z" finished-at="2022-06-15T06:36:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[setting up reports and test is getting ready]]>
+            </line>
+            <line>
+              <![CDATA[settings done - test can be started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.perficient.testcases.LoginTestCRM@5762806e]" name="setup" is-config="true" duration-ms="7352" started-at="2022-06-15T06:36:58Z" finished-at="2022-06-15T06:37:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start browser and application is getting ready]]>
+            </line>
+            <line>
+              <![CDATA[Application Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginApp()[pri:1, instance:com.perficient.testcases.LoginTestCRM@5762806e]" name="loginApp" duration-ms="5936" started-at="2022-06-15T06:37:05Z" finished-at="2022-06-15T06:37:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.perficient.testcases.LoginTestCRM@5762806e]" name="teardownMethod" is-config="true" duration-ms="1084" started-at="2022-06-15T06:37:11Z" finished-at="2022-06-15T06:37:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTestCRM.loginApp()[pri:1, instance:com.perficient.testcases.LoginTestCRM@5762806e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to End]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed Reports generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method status="PASS" signature="loginApp1()[pri:2, instance:com.perficient.testcases.LoginTestCRM@5762806e]" name="loginApp1" duration-ms="1" started-at="2022-06-15T06:37:12Z" finished-at="2022-06-15T06:37:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp1 -->
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.perficient.testcases.LoginTestCRM@5762806e]" name="teardownMethod" is-config="true" duration-ms="528" started-at="2022-06-15T06:37:12Z" finished-at="2022-06-15T06:37:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp1 status=SUCCESS method=LoginTestCRM.loginApp1()[pri:2, instance:com.perficient.testcases.LoginTestCRM@5762806e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to End]]>
+            </line>
+            <line>
+              <![CDATA[Test Completed Reports generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardownMethod -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.perficient.testcases.LoginTestCRM@5762806e]" name="teardown" is-config="true" duration-ms="750" started-at="2022-06-15T06:37:13Z" finished-at="2022-06-15T06:37:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.perficient.testcases.LoginTestCRM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
