@@ -34,7 +34,7 @@ public class LoginPage {
 	public void loginToFord(String username, String password)
 	{
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-
+		//commenting the force sleep
 		/*try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) 
